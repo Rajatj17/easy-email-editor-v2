@@ -1,4 +1,4 @@
-import { IEmailTemplate } from '@/typings';
+import { IEmailTemplate } from '../../../typings';
 import React from 'react';
 export declare type RecordStatus = 'add' | 'redo' | 'undo' | undefined;
 export declare const RecordContext: React.Context<{

@@ -9,9 +9,9 @@ interface Params {
     dragType: string;
 }
 export declare function getInsertPosition(params: Params): {
-    parentIdx: any;
-    insertIndex: any;
+    parentIdx: string;
+    insertIndex: number;
     endDirection: string;
-    hoverIdx: any;
+    hoverIdx: string;
 } | null;
 export {};

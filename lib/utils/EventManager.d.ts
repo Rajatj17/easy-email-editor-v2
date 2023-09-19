@@ -1,4 +1,4 @@
-import { ActiveTabKeys } from '@/components/Provider/BlocksProvider';
+import { ActiveTabKeys } from '../components/Provider/BlocksProvider';
 export declare class EventManager {
     private static events;
     static on(type: EventType.ACTIVE_TAB_CHANGE, callback: (payload: {

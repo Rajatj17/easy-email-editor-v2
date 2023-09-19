@@ -1,4 +1,4 @@
-import { IEmailTemplate } from '@/typings';
+import { IEmailTemplate } from '../../../typings';
 import React from 'react';
 import { PropsProviderProps } from '../PropsProvider';
 import { Config, FormApi, FormState } from 'final-form';
